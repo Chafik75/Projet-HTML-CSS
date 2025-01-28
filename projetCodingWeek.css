@@ -1,0 +1,1032 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root{
+
+    --color1:#ADD981}
+*{
+    margin: 0;
+    padding: 0; 
+    font-family: 'Montserrat';  
+}
+
+
+body{
+
+    background-color: rgba(255, 250, 250, 0.958);
+    font-family: "Abril Fatface", cursive,;
+    margin: 0;
+    padding: 0;
+    backdrop-filter: blur(500px);
+    
+    } 
+
+.top-page{
+    background:cover; 
+    color: white;
+    background-color: var(--color1);}
+nav a.en-tete{
+    text-decoration: none;
+    color: white;
+}
+
+.fas{
+    color: white;
+}
+
+h1{
+    font-size: 60px;
+    font-family: 'Abril Fatface';
+    font-weight: 100;}
+
+.icons{
+
+    display: flex;
+    position: absolute;
+    right: 10px;
+    gap: 10px;
+}
+
+
+
+
+.produits-title{
+    font-size: 80px;
+    font-weight: 200;
+    /* border-bottom: 3px solid var(--color1); */
+    color: var(--color1);
+position: relative;}
+
+    .produits-title::before{
+
+        content: "";
+        position: absolute;
+        background-color: #ADD981;
+        width: 150px;
+        height: 7px;
+        bottom: 0;
+
+    }
+
+.list-item{
+    font-size: 50px;
+    font-weight: 200;
+    padding-top: 200px;
+    padding-right: 0px;
+    margin-left: 70px;
+    margin-right: 10px;
+    color: var(--color1);
+
+}
+
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 0px;
+    padding-bottom: 10px;
+    list-style: none;
+}
+
+.searchbar{
+    position: absolute;
+    right:20px;
+    top: 10px;
+    border: none;}
+
+.loupe{ 
+    position: absolute;
+    right:0px;
+    top: 9px; 
+}
+
+.grid-container{
+    
+    display: flex;
+    flex-direction:column;
+    list-style: none;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+    padding: 20px;
+    flex-wrap: wrap;}
+
+/* Nos Catégories */
+
+.produits li{
+
+    list-style: none;
+    /* justify-content: center; */
+    /* height: 100px; */
+    /* width: 200px; */
+    /* background: rgba(168, 195, 203, 0.373); */
+    /* backdrop-filter: blur(5px); */
+    /* color: white; */
+    border: 1px solid white;
+    border-radius: 15px;
+    cursor: pointer ;
+    }
+
+.div-item{
+
+    display: flex;
+    justify-content: space-between;}
+
+    #promos{
+
+    background-image: url(./promotions.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 700px ;
+    height: 400px;}
+
+    #promos img{
+        width: 700px ;
+        height: 400px;
+        border-radius: 15px;  }
+    
+   
+
+#alim{
+
+    background-image: url(./alimentaire-produits.jpg);
+    background-size: cover;
+    width: 700px ;
+    height: 400px;}
+
+    #alim img{
+        width: 700px ;
+        height: 400px;
+        border-radius: 15px;  }
+
+#boissons{
+    background-image: url(./boissons-sucrees-.jpeg);
+    background-size: cover;
+    width: 700px ;
+    height: 400px;}
+
+    #boissons img{
+        width: 700px ;
+        height: 400px;
+        border-radius: 15px;  }
+        
+#Jeux-Vidéos{
+    background-image: url(./meilleures-consoles-jeu.webp);
+    background-size: cover;
+    width: 700px ;
+    height: 400px;} 
+
+#Jeux-Vidéos img{
+    width: 700px ;
+    height: 400px;
+    border-radius: 15px;  }
+
+#Electroménager{
+    background-image: url(./electormenager.jpg);
+    background-size: cover;
+    width: 700px ;
+    height: 400px;}
+
+    #Electroménager img{
+        width: 700px ;
+        height: 400px;
+        border-radius: 15px;  }
+
+#Mode{
+    background-image: url(./vetements.jpg);
+    background-size: cover;
+    width: 700px ;
+    height: 400px;}
+
+    #Mode img{
+        width: 500px ;
+        height: 200px;
+        border-radius: 15px;  }
+
+
+.boutonsProduits ul{
+
+    display: flex;
+    padding: 0;
+    justify-content: space-around;
+    }
+
+.services{
+
+    display: flex;
+    justify-content: space-evenly;
+    margin: 100px;
+}
+
+.delivery-icon{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 50px;
+    color:var(--color1) ;
+}
+
+.service-details{
+
+    font-weight: 600;}
+
+footer{
+
+    display: flex;
+    color:white ;
+    align-items:center;
+    justify-content:space-around;
+    width: 100%;
+    height: 50px;
+    font-weight: 700;
+    background-color: var(--color1);
+    backdrop-filter: blur (5px  );
+
+    }
+
+footer a.cgv{
+    text-decoration: none;
+    color: white;
+}
+
+.section-title{
+
+    font-size: 60px;
+    font-weight: 10px;
+    /* border-bottom: 3px solid var(--color1); */
+    color:var(--color1);
+    position: relative;
+    text-decoration: none;}
+
+    .section-title::before{
+
+        content:"";
+        position: absolute;
+        background-color: var(--color1);
+        width: 80px;
+        height: 7px;
+        bottom: 0;}
+
+/* Nos meilleures ventes */
+
+.best-items{
+    margin: 100px;
+}
+.best-sells{
+
+    display: flex;
+    }
+
+.bs-box{
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    min-width: 150px;
+    min-height: 250px;
+    flex: 1;}
+
+.bs1{background-image: url(./BS1.webp);}
+.bs2{background-image: url(./produits1.webp);}
+.bs3{background-image: url(./mode3.jpg);}
+.bs4{background-image: url(./BS4.jpg);}
+
+.bs1-details{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 5px 20px 20px;
+    background-color: #FFFFFFDF;
+}
+
+.bs1-name{
+    font-size: 22px;
+    font-weight: 600;
+    
+}
+
+.bs1-price{
+    color: var(--color1);
+    font-weight: 800;}
+
+/* *************************************************************NOS PROMOS*********************************************************************** */
+
+.promos-class{
+
+    margin: 100px;}
+
+.promos-grid{
+
+    display: grid;
+    min-height: 250vh;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: repeat(6,1fr);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.promos-box{
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    min-width: 150px;
+    min-height: 250px;
+    flex: 1;
+}
+
+.promos-details{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 5px 0px 20px;
+    background-color: #FFFFFFDF;
+}
+
+.promos-grid1{
+
+    background-image: url(./promo-pates&sauces.jpg);
+    background-position: center;
+    background-size: cover;
+    grid-column: 1/4 ;
+    grid-row: 1/3;}
+
+.promos-grid2{
+
+    background-image: url(./promo-pates.webp);
+    background-position: center;
+    background-size: cover;
+    grid-column: 1/3 ;
+    }
+
+.promos-grid3{
+
+    background-image: url(./promo-fromage.jpg);
+    background-position: center;
+    background-size: cover;
+    grid-column: 4/7 ;
+    grid-row: 1/3;
+    }
+
+.promos-grid4{
+
+    background-image: url(./promos-electro.webp);
+    background-position: center;
+    background-size: cover;
+    grid-column: 3/7 ;
+    grid-row: 6/3;}
+
+.promos-grid5{
+
+    background-image: url(./promo-couches.avif);
+    background-position: center;
+    background-size: cover;
+    grid-column: 1/3 ;
+    grid-row: 4/5;}
+
+.promos-grid6{
+
+    background-image: url(./promo-JV.webp);
+    background-position: center;
+    background-size: cover;
+    grid-column:1/3  ;
+    grid-row: 3/4;}
+
+    .promos-name{
+        font-size: 22px;
+        font-weight: 600;
+        
+    }
+    
+    .promos-price{
+        color: var(--color1);
+        font-weight: 800;}
+
+/***************************************************************NOUS CONTACTER*********************************************************************** */
+
+h3{
+    font-size: 30px;
+    font-weight: 200;
+    color: var(--color1);
+    padding-left: 70px;}
+
+.formulaire{
+
+    padding-left: 70px;}
+
+#commentaire{
+    border-radius: 5px;
+    border-style:initial;
+}
+
+.media-icons{
+    color: var(--color1);
+}
+
+.bouton{
+    color: white;
+    background-color: var(--color1);
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+}
+/************************************************************  MODE  *********************************************************************** */
+
+
+.mode-class{
+
+    margin: 100px;}
+
+.mode-grid{
+
+    display: grid;
+    min-height: 250vh;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    background-position: center;
+    background-repeat: no-repeat;
+    gap: 100px;
+}
+
+.mode-box{
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    min-width: 150px;
+    min-height: 250px;
+    flex: 1;
+}
+
+
+.mode-details{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 5px 0px 20px;
+    background-color: #FFFFFFDF;
+}
+    
+
+
+.mode-grid1{
+
+    background-image: url(./mode1.jpg) ;
+    background-position: center;
+    background-size: cover;
+    
+    }
+
+.mode-grid2{
+
+    background-image: url(./mode2.jpg);
+    background-position: center;
+    background-size: cover;
+    ;
+    }
+
+.mode-grid3{
+
+    background-image: url(./mode3.jpg);
+    background-position: center;
+    background-size: cover;
+    }
+
+.mode-grid4{
+
+    background-image: url(./mode4.jpg);
+    background-position: center;
+    background-size: cover;}
+
+.mode-grid5{
+
+    background-image: url(./mode5.jpg);
+    background-position: center;
+    background-size: cover;}
+
+.mode-grid6{
+
+    background-image: url(./mode6.jpg);
+    background-position: center;
+    background-size: cover;}
+
+    .mode-name{
+        font-size: 22px;
+        font-weight: 600;
+        text-decoration: none;
+    color: black;
+        
+    }
+    
+    .mode-price{
+        color: var(--color1);
+        font-weight: 800;}
+
+/************************************************************  PORDUITS ALIMENTAIRES  *********************************************************************** */
+
+
+.prod-class{
+
+    margin: 100px;}
+
+.prod-grid{
+
+    display: grid;
+    min-height: 250vh;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    background-position: center;
+    background-repeat: no-repeat;
+    gap: 100px;
+}
+
+.prod-box{
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    min-width: 150px;
+    min-height: 250px;
+    flex: 1;
+}
+
+
+.prod-details{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 5px 0px 20px;
+    background-color: #FFFFFFDF;
+}
+    
+
+
+.prod-grid1{
+
+    background-image: url(./produits1.webp) ;
+    background-position: center;
+    background-size: cover;
+    
+    }
+
+.prod-grid2{
+
+    background-image: url(./produits2.jpg);
+    background-position: center;
+    background-size: cover;
+    ;
+    }
+
+.prod-grid3{
+
+    background-image: url(./produits3.jpg);
+    background-position: center;
+    background-size: cover;
+    }
+
+.prod-grid4{
+
+    background-image: url(./produits4.jpg);
+    background-position: center;
+    background-size: cover;}
+
+.prod-grid5{
+
+    background-image: url(./produits5.jpg);
+    background-position: center;
+    background-size: cover;}
+
+.prod-grid6{
+
+    background-image: url(./produits6.jpg);
+    background-position: center;
+    background-size: cover;}
+
+    .prod-name{
+        font-size: 22px;
+        font-weight: 600;
+        text-decoration: none;
+    color: black;
+        
+    }
+    
+    .prod-price{
+        color: var(--color1);
+        font-weight: 800;}
+
+
+/************************************************************  Électroménager  *********************************************************************** */
+
+
+.electro-class{
+
+    margin: 100px;}
+
+.electro-grid{
+
+    display: grid;
+    min-height: 250vh;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    background-position: center;
+    background-repeat: no-repeat;
+    gap: 100px;
+}
+
+.electro-box{
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    min-width: 150px;
+    min-height: 250px;
+    flex: 1;
+}
+
+
+.electro-details{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 5px 0px 20px;
+    background-color: #FFFFFFDF;
+}
+    
+
+
+.electro-grid1{
+
+    background-image: url(./BS1.webp) ;
+    background-position: center;
+    background-size: cover;
+    
+    }
+
+.electro-grid2{
+
+    background-image: url(./electro2.jpg);
+    background-position: center;
+    background-size: cover;
+    ;
+    }
+
+.electro-grid3{
+
+    background-image: url(./electro3.jpg);
+    background-position: center;
+    background-size: cover;
+    }
+
+.electro-grid4{
+
+    background-image: url(./electro4.jpg);
+    background-position: center;
+    background-size: cover;}
+
+.electro-grid5{
+
+    background-image: url(./electro5.jpeg);
+    background-position: center;
+    background-size: cover;}
+
+.electro-grid6{
+
+    background-image: url(./electro6.jpg);
+    background-position: center;
+    background-size: cover;}
+
+    .electro-name{
+        font-size: 22px;
+        font-weight: 600;
+        text-decoration: none;
+    color: black;
+        
+    }
+    
+    .electro-price{
+        color: var(--color1);
+        font-weight: 800;}
+
+/************************************************************  Jeux-Vidéos  *********************************************************************** */
+
+
+.jv-class{
+
+    margin: 100px;}
+
+.jv-grid{
+
+    display: grid;
+    min-height: 250vh;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    background-position: center;
+    background-repeat: no-repeat;
+    gap: 100px;
+}
+
+.jv-box{
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    min-width: 150px;
+    min-height: 250px;
+    flex: 1;
+}
+
+
+.jv-details{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 5px 0px 20px;
+    background-color: #FFFFFFDF;
+}
+    
+
+
+.jv-grid1{
+
+    background-image: url(./BS4.jpg) ;
+    background-position: center;
+    background-size: cover;
+    
+    }
+
+.jv-grid2{
+
+    background-image: url(./jv2.jpg);
+    background-position: center;
+    background-size: cover;
+    ;
+    }
+
+.jv-grid3{
+
+    background-image: url(./jv3.jpg);
+    background-position: center;
+    background-size: cover;
+    }
+
+.jv-grid4{
+
+    background-image: url(./jv4.webp);
+    background-position: center;
+    background-size: cover;}
+
+.jv-grid5{
+
+    background-image: url(./jv6.jpg);
+    background-position: center;
+    background-size: cover;}
+
+.jv-grid6{
+
+    background-image: url(./promo-JV.webp);
+    background-position: center;
+    background-size: cover;}
+
+    .jv-name{
+        font-size: 22px;
+        font-weight: 600;
+        text-decoration: none;
+    color: black;
+        
+    }
+    
+    .jv-price{
+        color: var(--color1);
+        font-weight: 800;}
+
+/************************************************************  Boissons  *********************************************************************** */
+
+
+.boissons-class{
+
+    margin: 100px;}
+
+.boissons-grid{
+
+    display: grid;
+    min-height: 250vh;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    background-position: center;
+    background-repeat: no-repeat;
+    gap: 100px;
+}
+
+.boissons-box{
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    min-width: 150px;
+    min-height: 250px;
+    flex: 1;
+}
+
+
+.boissons-details{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 5px 0px 20px;
+    background-color: #FFFFFFDF;
+}
+    
+
+
+.boissons-grid1{
+
+    background-image: url(./boissons1.jpg) ;
+    background-position: center;
+    background-size: cover;
+    
+    }
+
+.boissons-grid2{
+
+    background-image: url(./boissons2.jpg);
+    background-position: center;
+    background-size: cover;
+    ;
+    }
+
+.boissons-grid3{
+
+    background-image: url(./boissons3.jpg);
+    background-position: center;
+    background-size: cover;
+    }
+
+.boissons-grid4{
+
+    background-image: url(./boissons4.jpg);
+    background-position: center;
+    background-size: cover;}
+
+.boissons-grid5{
+
+    background-image: url(./boissons5.jpg);
+    background-position: center;
+    background-size: cover;}
+
+.boissons-grid6{
+
+    background-image: url(./boissons6.jpg);
+    background-position: center;
+    background-size: cover;}
+
+    .boissons-name{
+        font-size: 22px;
+        font-weight: 600;
+        text-decoration: none;
+    color: black;
+        
+    }
+    
+    .boissons-price{
+        color: var(--color1);
+        font-weight: 800;}
+
+/************************************************************  PANIER  *********************************************************************** ***********************/
+
+.panier-box{
+
+        position: relative;
+        border: #ADD981 1px solid;
+        border-radius: 15px;
+        max-width: 50%;
+        padding: 15px;
+        margin: 15px;
+        background-color: white;
+        
+}
+
+.panier-image{
+
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.detail-panier{
+
+    position: absolute;
+    right: 60px;
+    top: 20px;
+    font-weight: 700;
+    color: var(--color1);
+}
+
+.prix-panier{
+
+    position: absolute;
+    right: 60px;
+    top:40px ;
+    font-weight: 700;}
+
+.quantité-panier{
+
+    position: absolute;
+    right: 60px;
+    bottom: 20px;
+    width: 40px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.recap-panier{
+
+    position:absolute;
+    right: 80px;
+    top: 235px;
+    border: 1px solid var(--color1);
+    border-radius: 20px;
+    padding: 30px;
+    min-width: 500px;
+    min-height: 300px;
+    background-color: white;
+}
+
+.recap-title{
+
+    position: absolute;
+    font-weight: 800;
+    right: 90px;}
+
+.recap-grid{
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(6,1fr);
+}
+
+.recap-grid1{
+
+    grid-column: 1/1;
+    grid-row: 1/1;
+}
+
+.recap-grid2{
+
+    grid-column: 3/3;
+    grid-row: 1/1;
+    font-weight: 700;
+}
+
+.recap-grid3{
+
+    grid-column: 1/1;
+    grid-row: 3/3;
+}
+
+.recap-grid4{
+
+    grid-column: 3/3;
+    grid-row: 3/3;
+    font-weight: 700;
+}
+
+.recap-grid5{
+
+    grid-column: 1/3;
+    grid-row: 6/6;
+    font-size: x-large;
+}
+
+.recap-grid6{
+
+    grid-column: 3/3;
+    grid-row: 6/6;
+    font-weight: 700;
+    font-size: xx-large;
+}
+
+/* *************************************************************Qui sommes-nous*********************************************************************** */
+
+
+.intro{
+    position: relative;
+    background-image: url(intro1.jpg);
+    min-width: 100px;
+    min-height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 20px;
+}
+
+.intro-subtitle{
+
+    position: absolute;
+    color: white;
+    left: 600px;
+    top: 100px;
+    font-weight: 800;
+}
+
+.intro-text{
+
+    position: absolute;
+    color: white;
+    left: 120px;
+    top: 200px;
+    font-weight: 500;
+}
+
